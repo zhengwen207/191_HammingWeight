@@ -1,6 +1,10 @@
 #include<iostream>
 #include<sstream>
 
+using namespace std;
+
+int getHammingWeight(unsigned a);
+
 int main(int argc, char* argv[]){
     
    // convert char* to unsigned
@@ -9,7 +13,7 @@ int main(int argc, char* argv[]){
 
    unsigned a;
    strValue >> a;
-
+   
    // count the number of 1's
    int s=getHammingWeight(a);
    
